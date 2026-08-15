@@ -155,6 +155,7 @@ PNEUMONIA/NORMAL prediction from Model 3 (ResNet50), along with an MC
 Dropout uncertainty estimate — predictions near the decision boundary
 are flagged as "high uncertainty" and recommended for radiologist
 review rather than being trusted outright.
+![Dashboard prediction example](images/dashboard_screenshot.png)
 
 **⚠️ Educational/portfolio project only — not a diagnostic tool.**
 

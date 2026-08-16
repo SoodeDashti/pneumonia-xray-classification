@@ -144,7 +144,11 @@ not eliminate, the risk of a confident error.
   validated on adult patients, other imaging equipment, or other
   populations, and none of them should be used as an actual diagnostic
   tool.
-- A PNEUMONIA prediction should still be confirmed by a radiologist
+  Pediatric and adult chest anatomy differ substantially (e.g. thymic
+  shadow, rib orientation, cardiothoracic ratio) — see Rupprecht et al.
+  (2018), https://pubmed.ncbi.nlm.nih.gov/29556698/ — so these models
+  should not be assumed to generalize to adult chest X-rays.
+ - A PNEUMONIA prediction should still be confirmed by a radiologist
   (PPV < NPV across models); a NORMAL prediction is comparatively more
   reliable on its own.
 
@@ -155,6 +159,7 @@ PNEUMONIA/NORMAL prediction from Model 3 (ResNet50), along with an MC
 Dropout uncertainty estimate — predictions near the decision boundary
 are flagged as "high uncertainty" and recommended for radiologist
 review rather than being trusted outright.
+![Dashboard prediction example](images/dashboard_screenshot.png)
 
 **⚠️ Educational/portfolio project only — not a diagnostic tool.**
 
